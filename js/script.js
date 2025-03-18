@@ -19,9 +19,14 @@ console.log(pelisAccPosterPath);
 const catchCajaAcc = document.getElementById("genero-28");
 
  //Darle estilo 
+ 
   catchCajaAcc.style.display = "flex";
   catchCajaAcc.style.flexWrap = "wrap";
   catchCajaAcc.style.gap = "10px";
+  
+
+  
+  
 
 
   //Vamos a crear un forEach para que recorra  los dos arrays generados anteriormente y le vamos dando forma:
@@ -32,7 +37,8 @@ const catchCajaAcc = document.getElementById("genero-28");
     peliculaContainer.style.flexDirection = "column"; // Disponer imagen y título en columna
     peliculaContainer.style.alignItems = "center"; // Centrar horizontalmente
     peliculaContainer.style.justifyContent = "space-between";
-    peliculaContainer.style.padding= "20px 0px 20px";
+    peliculaContainer.style.backgroundColor= "red"
+    
 
     // Crear la imagen
     const imgElement = document.createElement("img");
