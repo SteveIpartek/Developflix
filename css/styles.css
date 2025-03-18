@@ -10,9 +10,43 @@ body {
   background-color: #f8f8f8;
 }
 
+h1{
+color: red;
+
+
+}
+
+
 h2 {
+   width: 250px;
+   background-color: red;
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
 
+h2:hover{
+
+
+  background-color: maroon;
+  color: white;
+  font-weight: bold;
+
+
+}
+
+
+
+
+
+
+
+h3{
+    
+    
+    width: 150px;
+    word-wrap: break-word;
+    align-items: start;
+    min-height: 80px; /* altura mínima para que no "salten" */
+    
+}
 
