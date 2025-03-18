@@ -26,10 +26,7 @@ const catchCajaAcc = document.getElementById("genero-28");
   
 
   
-  
-
-
-  //Vamos a crear un forEach para que recorra  los dos arrays generados anteriormente y le vamos dando forma:
+//Vamos a crear un forEach para que recorra  los dos arrays generados anteriormente y le vamos dando forma:
   pelisAccPosterPath.forEach((rutaImagen, index) => {
     // Crear un contenedor para cada película
     const peliculaContainer = document.createElement("div");
