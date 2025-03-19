@@ -35,7 +35,8 @@ const catchCajaAcc = document.getElementById("genero-28");
     peliculaContainer.style.alignItems = "center"; // Centrar horizontalmente
     peliculaContainer.style.justifyContent = "space-between";
     peliculaContainer.style.backgroundColor= "red"
-    
+    peliculaContainer.classList.add("card");
+
 
     // Crear la imagen
     const imgElement = document.createElement("img");
@@ -45,9 +46,9 @@ const catchCajaAcc = document.getElementById("genero-28");
 
     // Crear el título
     const h3Element = document.createElement("h3");
-    h3Element.textContent = pelisAccTitulo[index]; // Usar el título correspondiente
-    
-    
+    h3Element.textContent= pelisAccTitulo[index]; // Usar el título correspondiente
+
+
     
     // Añadir imagen y título al contenedor de la película
     peliculaContainer.appendChild(imgElement);
@@ -82,11 +83,12 @@ catchCajaSuspense.style.gap = "10px";
 pelisSuspensePosterPath.forEach((rutaImagen, index) => {
   
   const peliculaContainer = document.createElement("div");
-  peliculaContainer.style.display = "flex";
-  peliculaContainer.style.flexDirection = "column";
-  peliculaContainer.style.alignItems = "center"; 
-  peliculaContainer.style.justifyContent = "space-between";
-  peliculaContainer.style.padding = "20px 0px 20px";
+    peliculaContainer.style.display = "flex";
+    peliculaContainer.style.flexDirection = "column"; // Disponer imagen y título en columna
+    peliculaContainer.style.alignItems = "center"; // Centrar horizontalmente
+    peliculaContainer.style.justifyContent = "space-between";
+    peliculaContainer.style.backgroundColor= "red"
+    peliculaContainer.classList.add("card");
 
   
   const imgElement = document.createElement("img");
@@ -134,10 +136,11 @@ pelisAventuraPosterPath.forEach((rutaImagen, index) => {
   
   const peliculaContainer = document.createElement("div");
   peliculaContainer.style.display = "flex";
-  peliculaContainer.style.flexDirection = "column"; 
-  peliculaContainer.style.alignItems = "center"; 
-  peliculaContainer.style.justifyContent = "space-between";
-  peliculaContainer.style.padding = "20px 0px 20px";
+    peliculaContainer.style.flexDirection = "column"; // Disponer imagen y título en columna
+    peliculaContainer.style.alignItems = "center"; // Centrar horizontalmente
+    peliculaContainer.style.justifyContent = "space-between";
+    peliculaContainer.style.backgroundColor= "red"
+    peliculaContainer.classList.add("card");
 
 
   const imgElement = document.createElement("img");
@@ -156,10 +159,3 @@ pelisAventuraPosterPath.forEach((rutaImagen, index) => {
   
   catchCajaAventura.appendChild(peliculaContainer);
 });
-
-
-
-
-
- 
-  
